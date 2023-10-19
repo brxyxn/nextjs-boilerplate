@@ -1,0 +1,51 @@
+{
+  "name": "text-editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "test": "vitest",
+    "test:cov": "vitest run --coverage",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "axios": "1.5.1",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.0.0",
+    "lucide-react": "0.288.0",
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "1.14.0",
+    "tailwindcss-animate": "1.0.7"
+  },
+  "devDependencies": {
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "29.5.6",
+    "@types/node": "20.8.7",
+    "@types/react": "18.2.29",
+    "@types/react-dom": "18.2.14",
+    "@vitejs/plugin-react": "4.1.0",
+    "@vitest/coverage-v8": "0.34.6",
+    "autoprefixer": "10.4.16",
+    "eslint": "8.51.0",
+    "eslint-config-next": "13.5.6",
+    "happy-dom": "12.9.1",
+    "next-router-mock": "0.9.10",
+    "postcss": "8.4.31",
+    "prettier": "3.0.3",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2",
+    "vitest": "0.34.6"
+  },
+  "jest": {
+    "setupFiles": [
+      "jest-webextension-mock"
+    ]
+  }
+}
